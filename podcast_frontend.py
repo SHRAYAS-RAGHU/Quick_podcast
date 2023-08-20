@@ -3,6 +3,25 @@ import modal
 import json
 import os
 
+# import streamlit as st
+
+
+# def main():
+#     st.title("Podcast Summarizer")
+
+#     tab1, tab2 = st.tabs(["Newsletter", "Search an episode"])
+
+#     with tab1:
+#         st.sidebar.header("Podcast RSS Feeds")
+#         st.sidebar.subheader("Available Podcasts Feeds")
+
+#         selected_podcast = st.sidebar.selectbox("Select Podcast", options=["1", "2", "3"])
+#     with  tab2:
+#         st.text_input("Search an episode here")
+#     return 0
+# if __name__ == '__main__':
+#     main()
+
 def main():
     st.title("Newsletter Dashboard")
 
